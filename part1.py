@@ -14,7 +14,7 @@ Enter another number: 5
 
 The smallest number is 2
 '''
-
+"""
 number = int(input("Enter a number: "))
 
 smallest = number
@@ -25,3 +25,9 @@ if number < smallest:
   smallest = number
   
 print("The smallest number is ", smallest)
+"""
+num1=int(input("Enter a number: "))
+num2=int(input("Enter another number: "))
+num3=int(input("Enter another number: "))
+if num1<num2, num1<num3:
+  print(num1+" is the smallest number")
